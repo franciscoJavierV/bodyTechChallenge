@@ -11,6 +11,7 @@
   --orange:#eb6608;
   --white:var(--white);
   --grey:#a7a3a3;
+  --ligth-gre:#f6f6f6;
   --space:3rem;
 }
 /*general styles*/
@@ -70,4 +71,17 @@ padding: var(--space);
   gap: var(--space);
   max-width: 1080px;
   width: 90%;
+}
+@media (max-width: 500px) {
+  .form {
+    flex-direction: column;
+    width: 96%;
+    margin: 3rem auto;
+  }
+  .input{
+    width: 90%;
+  }
+  .button{
+    width: 90%;
+  }
 }

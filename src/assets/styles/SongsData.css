@@ -1,0 +1,33 @@
+.song-data-wrapper__img{
+    max-width: 130px;
+    max-height: 130px;
+}
+.song-data{
+    display: flex;
+    max-width: 60%;
+    gap: 5rem;
+    align-items: center;
+    margin: 3rem auto;
+    padding: 1rem;
+    box-shadow: 0px 2px 10px #00000029;
+    background: var(--ligth-grey);
+}
+.volver{
+    display: block;
+    text-align: center;
+    color: var(--white);
+    margin: 0 auto;
+    padding: .3rem;
+    width: 200px;
+}
+.carga{
+    display: block;
+    margin: 1rem auto;
+    padding: .5rem;
+    text-align: center;
+    background-color:var(--orange);
+    color: var(--white);
+    border: 1px solid inherit;
+    width: 300px;
+    border-radius: 25px;
+}
